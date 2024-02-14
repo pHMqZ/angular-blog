@@ -1,5 +1,4 @@
 .big-card-container {
-    border: solid white 1px;
     margin-left: 10px;
     margin-right: 10px;
     width: 400px;
@@ -13,13 +12,18 @@
 .big-card-title > h1{
     font-size: 20px;
     margin-top: 5px;
-    margin-bottom: 2.5px;
 }
 
 .big-card-img > img{
-    justify-self: center;
+    width: 100%;
+    min-width: 400px;
 }
 
-.big-card-description > p {
+.big-card-description{
+    margin-top: 10px;
+}
+
+.big-card-description > p > a {
+    
     color: gray;
 }
