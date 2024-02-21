@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-big-card',
@@ -14,6 +15,8 @@ export class BigCardComponent implements OnInit{
   cardTitle:string = " "
   @Input()
   cardDescription:string = " "
+  @Input()
+  Id:string="0"
 
   constructor() { }
 
